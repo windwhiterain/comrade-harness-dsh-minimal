@@ -1,0 +1,18 @@
+{
+  "name": "comrade-harness-standard",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "local:on": "bun scripts/local-switch.ts on",
+    "local:off": "bun scripts/local-switch.ts off"
+  },
+  "dependencies": {
+    "comrade-harness-lib": "github:windwhiterain/comrade-harness-lib#b113dee32bf28ffb02a3cd13b912a62691d2932c",
+    "dsh-minimal": "github:windwhiterain/dsh-minimal#6522154d608b68305dd90b5b4d860d0e4730b218"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/bun": "latest"
+  }
+}
