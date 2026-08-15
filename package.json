@@ -1,0 +1,19 @@
+{
+  "name": "comrade-harness-dsh-minimal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "local:on": "bun scripts/local-link.ts on",
+    "local:off": "bun scripts/local-link.ts off",
+    "postinstall": "bun scripts/local-link.ts"
+  },
+  "dependencies": {
+    "comrade-harness-lib": "github:windwhiterain/comrade-harness-lib#418bde45af08dfdf82b181c4f9bef156697fd6ab",
+    "dsh-minimal": "github:windwhiterain/dsh-minimal#6522154d608b68305dd90b5b4d860d0e4730b218"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/bun": "latest"
+  }
+}
